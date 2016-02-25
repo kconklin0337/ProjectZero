@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <title>ProjectZero</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+   <!-- Optional theme -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/watcher.css">
+</head>
+  <body>
+          <div class= "navbar navbar-inverse navbar-static-top">
+            <div class= "container-fluid" id="fluid">
+              <a href= "/" class= "navbar-brand">
+                ProjectZero
+              </a>
+              <button class= "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                <span class= "icon-bar"></span>
+                <span class= "icon-bar"></span>
+                <span class= "icon-bar"></span>
+              </button>
+              <div class = "collapse navbar-collapse navHeaderCollapse">
+                  <ul class = "nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">
+                      Oh,
+                    </a>
+                    <li class = "dropdown">
+                      <a href="#" class = "dropdown-toggle" data-toggle = "dropdown"><small>the places</small><b class="caret"></b></a>
+                        <ul class= "dropdown-menu">
+                          <li><a href = "#">Here</a></li>
+                          <li><a href = "#">There</a></li>
+                          <li><a href = "#">Everywhere</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">
+                      you'll
+                    </a></li>
+                    <li><a href="#html/gpsWatcher.html">
+                       go!
+                    </a></li>
+                  </ul>
+                </div>
+         </div><hr>
+  </div>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="bigBrother"></p>
+<div class="cotainer"><div class="row">
+<div id="weather"></div>
+</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+<script src="js/config.js"></script>
+<script src="js/watcher.js"></script>
+</body>
+</html>
